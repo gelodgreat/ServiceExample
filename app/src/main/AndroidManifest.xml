@@ -17,9 +17,21 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".IntentServicesExample">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
         <service
-            android:name=".TheService"
-            android:exported="false"></service>
+            android:name=".services.TheService"
+            android:exported="false" />
+
+        <service
+            android:name=".services.TheIntentService"
+            android:exported="false" />
     </application>
 
 </manifest>

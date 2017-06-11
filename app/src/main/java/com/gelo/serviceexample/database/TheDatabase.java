@@ -1,4 +1,4 @@
-package com.gelo.serviceexample;
+package com.gelo.serviceexample.database;
 
 import android.content.ContentValues;
 import android.content.Context;

@@ -4,38 +4,22 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.gelo.serviceexample.MainActivity">
+    tools:context="com.gelo.serviceexample.IntentServicesExample">
 
-
-    <Button
-        android:id="@+id/populatedb"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40sp"
-        android:onClick="populateDB"
-        android:text="POPULATE DB" />
 
     <Button
         android:id="@+id/startserv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40sp"
-        android:onClick="startService"
+        android:onClick="startServiceint"
         android:text="START SERVICE" />
 
     <Button
         android:id="@+id/stopserv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="stopService"
+        android:onClick="stopServiceint"
         android:text="STOP SERVICE" />
-
-    <Button
-        android:id="@+id/btn_intentservices"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="30sp"
-        android:onClick="gotoIntentServices"
-        android:text="Intent Services" />
 
 </LinearLayout>
